@@ -1,0 +1,25 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoft Server.exe.config
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoft Server.exe
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoft Server.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftBD.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSPrintingHelper.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\Npgsql.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftLogger.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftCore.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\Mono.Security.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftBD.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftModels.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSPrintingHelper.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\Npgsql.xml
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftLogger.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\bin\Debug\DSoftCore.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoftServer.csprojResolveAssemblyReference.cache
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoft_Server.frmMain.resources
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoft_Server.frmTerminal.resources
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoft_Server.Properties.Resources.resources
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoftServer.csproj.GenerateResource.Cache
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoft Server.exe
+C:\DSoft\Projetos\DSoft Delivery\DSoft Server\obj\x86\Debug\DSoft Server.pdb

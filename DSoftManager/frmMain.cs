@@ -1,0 +1,163 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.IO;
+using DSoftBd;
+using DSoftModels;
+using DSoftParameters;
+using DSoftForms;
+
+namespace DSoftManager
+{
+	public partial class frmMain : Form
+	{
+		private Bd _dsoftBd;
+		private Usuario _usuario;
+
+		public frmMain()
+		{
+			InitializeComponent();
+
+			_dsoftBd = new Bd(0);
+			_usuario = new Usuario();
+
+			if (IniciaConexao())
+			{
+				frmLogin f = new frmLogin(_usuario, _dsoftBd);
+
+				if (f.ShowDialog() != DialogResult.OK || _usuario == null)
+				{
+					Application.Exit();
+					return;
+				}
+
+				if ((toolStripStatusLabel2.Text = _dsoftBd.UsuarioNome(_usuario.Autorizado)) == string.Empty)
+				{
+					toolStripStatusLabel2.Text = "Acesso não autorizado!";
+
+					foreach (Control c in Controls)
+					{
+						if (c is Button)
+							c.Enabled = false;
+					}
+
+					//menuStrip1.Enabled = false;
+				}
+
+				//frmLoading fLoad = new frmLoading("DSoft BD", "Verificando banco-de-dados...");
+				//fLoad.Show(this);
+
+				if (_usuario != null && _usuario.Codigo > 0)
+				{
+					/*_dsoftBd.VerificarBD().ContinueWith((task) =>
+					{
+						this.Invoke(new Action(() =>
+						{
+							fLoad.Close();
+						}));
+					});
+					*/
+					_usuario = _dsoftBd.CarregarUsuario(_usuario.Autorizado);
+					_usuario.Autorizado = _usuario.Codigo;
+
+					//_dsoftBd.CarregarFilial();
+
+					VerificarLicenca();
+				}
+			}
+			else
+			{
+				MessageBox.Show("Não foi possivel se conectar ao banco-de-dados. Entre em contato com o suporte.", this.Text,
+					MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
+				Application.Exit();
+			}
+		}
+
+		private void frmMain_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private bool IniciaConexao()
+		{
+			byte[] conteudo;
+			string dados;
+			string host;
+			string porta;
+			string banco;
+			string[] parametros;
+
+			try
+			{
+				FileStream file = new FileStream("dsoft.ini", FileMode.Open);
+
+				conteudo = new byte[file.Length];
+
+				file.Read(conteudo, 0, conteudo.Length);
+
+				file.Close();
+
+				dados = System.Text.Encoding.ASCII.GetString(conteudo);
+
+				parametros = dados.Split(":".ToCharArray());
+
+				host = parametros[0];
+				porta = parametros[1];
+				banco = parametros[2];
+
+				return _dsoftBd.Conecta(host, porta, banco);
+			}
+			catch (Exception e)
+			{
+				MessageBox.Show(e.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+				return false;
+			}
+		}
+
+		private void VerificarLicenca()
+		{
+			if (Licenca.Instance.Demo)
+			{
+				lbLicenca.Text = "*Software não licenciado. Liberado para demonstração.";
+			}
+			else if (Licenca.Instance.Expirou)
+			{
+				lbLicenca.Text = "*Licença expirou. Entre em contato com o suporte.";
+			}
+			else if (Licenca.Instance.DiasRestantes <= Preferencias.LicencaAviso)
+			{
+				lbLicenca.Text = "*Licença de uso expira em " + Licenca.Instance.DiasRestantes.ToString() + " dias.";
+			}
+		}
+
+		private void tsbCadLeads_Click(object sender, EventArgs e)
+		{
+			CadLeads form = new CadLeads(_dsoftBd, _usuario);
+			form.Show();
+		}
+
+		private void tsbConfig_Click(object sender, EventArgs e)
+		{
+			frmConfig form = new frmConfig();
+			form.ShowDialog();
+		}
+
+		private void tsbContactsLog_Click(object sender, EventArgs e)
+		{
+			ContactsLog form = new ContactsLog(_dsoftBd, _usuario);
+			form.Show();
+		}
+
+		private void tsbSair_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+	}
+}

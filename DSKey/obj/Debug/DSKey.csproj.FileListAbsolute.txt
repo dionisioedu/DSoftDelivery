@@ -1,0 +1,4 @@
+C:\DSoft\Projetos\DSoft Delivery\DSKey\bin\Debug\DSKey.dll
+C:\DSoft\Projetos\DSoft Delivery\DSKey\bin\Debug\DSKey.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSKey\obj\Debug\DSKey.dll
+C:\DSoft\Projetos\DSoft Delivery\DSKey\obj\Debug\DSKey.pdb

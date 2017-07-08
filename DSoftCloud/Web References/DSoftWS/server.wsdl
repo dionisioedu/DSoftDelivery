@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="www.dsoftsistemas.com.br/DSoftWS/?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="www.dsoftsistemas.com.br/DSoftWS/?wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="www.dsoftsistemas.com.br/DSoftWS/?wsdl">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="dsoft_testRequest">
+    <wsdl:part name="test" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="dsoft_testResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="dsoft_loginRequest" />
+  <wsdl:message name="dsoft_loginResponse" />
+  <wsdl:portType name="dsoft_serverPortType">
+    <wsdl:operation name="dsoft_test">
+      <wsdl:input message="tns:dsoft_testRequest" />
+      <wsdl:output message="tns:dsoft_testResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="dsoft_login">
+      <wsdl:input message="tns:dsoft_loginRequest" />
+      <wsdl:output message="tns:dsoft_loginResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="dsoft_serverBinding" type="tns:dsoft_serverPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="dsoft_test">
+      <soap:operation soapAction="http://www.dsoftsistemas.com.br/DSoftWS/server.php/dsoft_test" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsoft_login">
+      <soap:operation soapAction="http://www.dsoftsistemas.com.br/DSoftWS/server.php/dsoft_login" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="dsoft_server">
+    <wsdl:port name="dsoft_serverPort" binding="tns:dsoft_serverBinding">
+      <soap:address location="http://www.dsoftsistemas.com.br/DSoftWS/server.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

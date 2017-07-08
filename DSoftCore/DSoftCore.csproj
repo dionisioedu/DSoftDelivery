@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{370CE1AE-0082-46EE-B7E2-EF457D45B5EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSoftCore</RootNamespace>
+    <AssemblyName>DSoftCore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BemaFI64.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Controls\ConfirmButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConfirmButton.Designer.cs">
+      <DependentUpon>ConfirmButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CancelButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CancelButton.Designer.cs">
+      <DependentUpon>CancelButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CashButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CashButton.Designer.cs">
+      <DependentUpon>CashButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CollectButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CollectButton.Designer.cs">
+      <DependentUpon>CollectButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PrintLittleButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PrintLittleButton.Designer.cs">
+      <DependentUpon>PrintLittleButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RefreshButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RefreshButton.Designer.cs">
+      <DependentUpon>RefreshButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ManifestButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ManifestButton.Designer.cs">
+      <DependentUpon>ManifestButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DeliveryButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DeliveryButton.Designer.cs">
+      <DependentUpon>DeliveryButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomersButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomersButton.Designer.cs">
+      <DependentUpon>CustomersButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OrderButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OrderButton.Designer.cs">
+      <DependentUpon>OrderButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ExitButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ExitButton.Designer.cs">
+      <DependentUpon>ExitButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnterButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnterButton.Designer.cs">
+      <DependentUpon>EnterButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\QuitButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\QuitButton.Designer.cs">
+      <DependentUpon>QuitButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TransparentPanelcs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TransparentPanelcs.Designer.cs">
+      <DependentUpon>TransparentPanelcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ECFHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SwedaST120.cs" />
+    <Compile Include="Tanca.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidadorIE.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DSoftParameters\DSoftParameters.csproj">
+      <Project>{D0213FDF-5771-40FF-AB8A-F51D0320CBB0}</Project>
+      <Name>DSoftParameters</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627355_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ConfirmButton.resx">
+      <DependentUpon>ConfirmButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CancelButton.resx">
+      <DependentUpon>CancelButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CashButton.resx">
+      <DependentUpon>CashButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CollectButton.resx">
+      <DependentUpon>CollectButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PrintLittleButton.resx">
+      <DependentUpon>PrintLittleButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RefreshButton.resx">
+      <DependentUpon>RefreshButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ManifestButton.resx">
+      <DependentUpon>ManifestButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DeliveryButton.resx">
+      <DependentUpon>DeliveryButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CustomersButton.resx">
+      <DependentUpon>CustomersButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OrderButton.resx">
+      <DependentUpon>OrderButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ExitButton.resx">
+      <DependentUpon>ExitButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EnterButton.resx">
+      <DependentUpon>EnterButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\QuitButton.resx">
+      <DependentUpon>QuitButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627497_checkmark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627514_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627332_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627085_logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627217_shoping_cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440626923_money_bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440626937_conference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440626948_delivery_food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440633397_pickup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440626897_purchase_order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440627403_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1440630155_print.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

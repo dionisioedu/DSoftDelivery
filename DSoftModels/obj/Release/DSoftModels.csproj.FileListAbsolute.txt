@@ -1,0 +1,7 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Release\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Release\DSoftModels.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Release\Mono.Security.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Release\Npgsql.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Release\Npgsql.xml
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\obj\Release\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\obj\Release\DSoftModels.pdb

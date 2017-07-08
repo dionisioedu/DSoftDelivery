@@ -1,0 +1,72 @@
+﻿create table cad_leads (
+indice serial not null primary key,
+nome varchar,
+endereco varchar,
+numero varchar,
+bairro varchar,
+cidade varchar,
+estado varchar,
+pais varchar,
+cep varchar,
+tel1 bigint,
+tel2 bigint,
+celular bigint,
+contato varchar,
+ramo varchar,
+cadastro date default now(),
+origem varchar,
+situacao character default 'A',
+usuario integer,
+cliente bigint,
+obs varchar);
+
+drop table atendimentos;
+
+create table atendimentos (
+indice serial not null primary key,
+data date default now(),
+hora time default now(),
+lead integer,
+origem character default 'E',
+usuario integer,
+motivo varchar,
+conclusao varchar,
+ocorrencia integer,
+situacao character default 'A'
+);
+
+create table alertas (
+indice serial not null primary key,
+data date,
+hora time,
+usuario integer,
+usuario_destino integer,
+situacao character default 'A',
+atendimento integer,
+ocorrencia integer,
+lead integer,
+cliente bigint,
+titulo varchar,
+observacao varchar
+);
+
+drop table ocorrencias;
+
+create table ocorrencias (
+indice serial NOT NULL primary key,
+data date DEFAULT now(),
+hora time DEFAULT now(),
+tipo character(1) default 'N',
+situacao character(1) DEFAULT 'A'::bpchar,
+usuario integer,
+ocorrencia character varying,
+obs character varying,
+motivo character varying,
+conclusao character varying,
+encerrada date,
+encerrada_usuario integer,
+cancelado date,
+cancelado_usuario integer,
+cliente bigint,
+lead integer
+);

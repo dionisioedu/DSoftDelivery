@@ -1,0 +1,16 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftBD.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftBD.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftCore.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftLogger.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\Mono.Security.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\Npgsql.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftCore.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftLogger.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftModels.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\bin\Debug\Npgsql.xml
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Debug\DSoftBd.csprojResolveAssemblyReference.cache
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Debug\DSoftBD.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Debug\DSoftBD.pdb

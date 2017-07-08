@@ -1,0 +1,10 @@
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\bin\Debug\DSKeys.exe
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\bin\Debug\DSKeys.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\bin\Debug\DSKey.dll
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\bin\Debug\DSKey.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\Generator.csprojResolveAssemblyReference.cache
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\DSKeys.frmMain.resources
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\DSKeys.Properties.Resources.resources
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\Generator.csproj.GenerateResource.Cache
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\DSKeys.exe
+C:\DSoft\Projetos\DSoft Delivery\DSKeys\obj\x86\Debug\DSKeys.pdb

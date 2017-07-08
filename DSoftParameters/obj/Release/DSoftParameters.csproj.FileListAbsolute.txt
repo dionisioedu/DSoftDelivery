@@ -1,0 +1,5 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Release\DSoftParameters.dll.config
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Release\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Release\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\obj\Release\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\obj\Release\DSoftParameters.pdb

@@ -1,0 +1,6 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\bin\Debug\DSoftCloud.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\bin\Debug\DSoftCloud.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\obj\x86\Debug\DSoftCloud.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\obj\x86\Debug\DSoftCloud.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\bin\Debug\DSoftCloud.dll.config
+C:\DSoft\Projetos\DSoft Delivery\DSoftCloud\obj\x86\Debug\DSoftCloud.csprojResolveAssemblyReference.cache

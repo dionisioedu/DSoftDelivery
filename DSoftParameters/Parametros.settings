@@ -1,0 +1,222 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DSoftParameters" GeneratedClassName="Parametros">
+  <Profiles />
+  <Settings>
+    <Setting Name="controla_processos" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="controla_entregas" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="numero_caixa" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="titulo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DSoft Delivery v1.4</Value>
+    </Setting>
+    <Setting Name="pedido_caixa" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="relatorios" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\DSoft\DSoftDelivery\Relatorios\</Value>
+    </Setting>
+    <Setting Name="debito_automatico" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="imagem_fundo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dsoft_delivery14.png</Value>
+    </Setting>
+    <Setting Name="imagem_login" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dsoft_login14.png</Value>
+    </Setting>
+    <Setting Name="impressora" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="imp2vias" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="imprime_ticket" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="promocao1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="promocao2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dupla_linha" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="produto_por_nome" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="imprime_producao" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ramo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PIZZARIA</Value>
+    </Setting>
+    <Setting Name="registra_vendedor" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="pasta_cte" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:/dsoft/CTe/</Value>
+    </Setting>
+    <Setting Name="schema_cte" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:/dsoft/projetos/dsoft delivery/cte/cte_v1.03.xsd</Value>
+    </Setting>
+    <Setting Name="emite_cupom_fiscal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ecf" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SWEDA</Value>
+    </Setting>
+    <Setting Name="ecf_porta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM1</Value>
+    </Setting>
+    <Setting Name="schema_status_servico" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="postgresql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:/Program Files (x86)/PostgreSQL/9.1/bin/</Value>
+    </Setting>
+    <Setting Name="backup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:/dsoft/backup/</Value>
+    </Setting>
+    <Setting Name="leitora_barras" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="pasta_cte_retorno" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pasta_cte_erro" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pasta_cte_assinadas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pasta_cte_enviadas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pasta_cte_negadas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="pasta_cte_arquivo" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="matriz" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="matriz_servidor" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="matriz_porta" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="matriz_intervalo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="matriz_pasta" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="fecha_caixa_automatico" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="caixa_inicial" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="licenca_aviso" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="impressora_colunas" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">48</Value>
+    </Setting>
+    <Setting Name="pasta_log" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:/dsoft/log/</Value>
+    </Setting>
+    <Setting Name="browser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">chrome.exe</Value>
+    </Setting>
+    <Setting Name="relatorios_matricial" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="aviso_estoque" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="bloqueia_estoque" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="bloqueia_cliente_anonimo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="nfe" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_enviadas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_retorno" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_gravados" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_temporarios" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_backup" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_validados" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="nfe_baixados" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="schema_nfe" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="mensagem_cupom" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="taxa_entrega_grupo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="imprime_usuario" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ordem_coleta_vias" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="verifica_arquivos" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="impressora_externa_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="impressora_externa_2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="permite_cancelamento" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="mapas_online" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="impressora_delivery" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ecf_downloadmf" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:/DSoft/memoriafiscal.mf</Value>
+    </Setting>
+    <Setting Name="versao_postgresql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9.1</Value>
+    </Setting>
+    <Setting Name="processador_postgresql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">x86</Value>
+    </Setting>
+    <Setting Name="impressora_corte" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

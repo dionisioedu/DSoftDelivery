@@ -1,0 +1,7 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\bin\Debug\DSoftLogger.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\bin\Debug\DSoftLogger.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\bin\Debug\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\bin\Debug\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\obj\Debug\DSoftLogger.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\obj\Debug\DSoftLogger.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftLogger\obj\Debug\DSoftLogger.csprojResolveAssemblyReference.cache

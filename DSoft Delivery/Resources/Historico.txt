@@ -1,0 +1,86 @@
+Histórico de versões e correções do sistema
+===========================================
+
+[08/12/2014] Integramos o cadastro de clientes e a janela de entregas aos mapas do Google.
+
+[01/12/2014] Criamos a busca de clientes pelo número dos telefones e adicionamos esta verificação na tela de pedidos.
+
+[02/12/2014] Criamos nova funcionalidade para alterar código dos clientes.
+
+[27/11/2014] Criamos uma forma de vincular um usuário à um recurso, para que fique registrado qual recurso responsável por cada ação.
+
+[27/11/2014] Criamos uma consulta que identifica qual usuário, inclusive qual mobile, realizou cada item do pedido. Esta consulta está disponível à partir da janela de pedidos.
+
+[26/11/2014] Na tela de entrega, adicionamos o descritivo do pedido.
+
+[26/11/2014] Criamos ponto eletrônico para que funcionários possam registrar seus horários de entrada e saída.
+
+[21/11/2014] Criar novo "ramo" no sistema para Locadoras.
+
+[20/11/2014] Adicionamos campo e-mail no cadastro de fornecedores.
+
+[05/11/2014] Criamos o campo e-mail no cadastro de clientes.
+
+[25/07/2014] Implementamos um controle para mostrar o status da verificação dos arquivos, habilitar a verificação e desabilitar, na tela de conhecimentos de transporte.
+
+[25/07/2014] Adicionamos uma verificação do arquivo do CTe a ser impresso para evitar que quebre o sistema caso não encontre o arquivo.
+
+[16/07/2014] Adicionamos configuração para não permitir cancelamento pelos DSoft Mobiles
+
+[16/07/2014] Criar tela de itens 3 / 3
+
+[15/07/2014] Na tela de pedidos, aumentamos a lista de itens adicionais.
+
+[09/07/2014] Na consulta de entregas por entregador, implementamos o demonstrativo do pedido.
+
+[08/07/2014] Implementamos o demonstrativo do pedido na consulta histórica de pedidos por cliente.
+
+[08/07/2014] Adicionamos a opção de pagar um pedido na tela de entregas.
+
+[07/07/2014] Adicionamos a opção de cancelar pedidos na tela de entregas.
+
+[03/07/2014] Na reimpressão de pedidos, evitamos que os pedidos sejam novamente impressos nas impressoras externas.
+
+[03/07/2014] Na janela de entregas, implementamos o carregamento paginado dos pedidos, para trazer somente os últimos pedidos e melhorar a performance da tela.
+
+[29/06/2014] Na tela de pedidos fracionandos, implementamos a possibilidade do usuário solicitar um produto 3/3 digitando nos campos de quantidade 3, 3, 3.
+
+[29/06/2014] Na tela de Conhecimentos de Transporte, implementamos a possibilidade de gerar novamente um CTe à partir de um conhecimento que já havia gerado, pois em alguns casos o CTe pode retornar erro e precisa ser gerado novamente.
+
+[29/06/2014] Implementamos uma verificação para limpar os espaços ao gerar um CTe.
+
+[29/06/2014] Corrigimos a tela de pedidos que não estava carregando os pedidos antigos.
+
+[29/06/2014] Corrigimos a tela de entregas que não estava exibindo os valores corretamente.
+
+[26/06/2014] Aplicamos o desconto nos itens meio à meio.
+
+[22/06/2014] Implementamos cadastro de tipos de clientes.
+
+[22/06/2014] Implementamos mostrador com histórico de correções e melhorias implementadas no sistema por versão.
+
+[22/06/2014] Ajustamos tela de itens duplos de pedido para funcionar com os novos itens adicionais.
+
+[20/06/2014] Na tela de cadastro de usuários, implementamos a atualização da lista de níveis assim que ela for editada.
+
+[19/06/1014] Implementamos o controle de acesso para alterar pedidos. Agora, se um usuário não tem acesso, precisa da confirmação de um usuário que tenha acesso para que as alterações sejam salvas.
+
+[19/06/2014] Implementamos um mecanismo que permite que apenas produtos cujo tipo permita que sejam selecionados em itens duplos ou fracionados.
+
+[19/06/2014] Alteramos as labels de itens duplos e itens fracionados na tela de pedidos, para que possamos abrir estas janelas clicando nas labels.
+
+[19/06/2014] Na versão do DSoft Delivery para transportadoras, adicionamos a possibilidade de montar os Manifestos com dois veículos. O caminhão e a carreta.
+
+[19/06/2014] Na tela de Ordem de Coleta, mantemos alguns campos no histórico após ser confirmado o salvamento de um Conhecimento, para que não seja necessário digitar novamente.
+
+[19/06/2014] No cadastro de itens adicionais, implementamos a passagem de um campo para outro com a tecla Enter.
+
+[19/06/2014] Implementamos um mecanismo que faz a entrega automática no pagamento no caso de clientes Internos (como mesas)
+
+[18/06/2014] Passamos os parâmetros das Regras de Negócios para o banco-de-dados.
+
+[17/06/2014] Implementamos o envio apenas de clientes internos pelo DSoft Server para o DSoft Mobile.
+
+[17/06/2014] Implementamos o cadastro de tipos de clientes.
+
+

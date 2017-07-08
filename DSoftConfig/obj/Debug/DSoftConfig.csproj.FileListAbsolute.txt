@@ -1,0 +1,4 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Debug\DSoftConfig.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Debug\DSoftConfig.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\obj\Debug\DSoftConfig.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\obj\Debug\DSoftConfig.pdb

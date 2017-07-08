@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <app_title>DSoft Sistemas</app_title>
+  <login_image>C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Debug\dsoft_login14.png</login_image>
+  <background_image>C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Debug\pizza.png</background_image>
+  <licence_warning>5</licence_warning>
+  <ticket_msg></ticket_msg>
+  <orders_refresh>5</orders_refresh>
+  <main_location_x>318</main_location_x>
+  <main_location_y>44</main_location_y>
+  <main_width>910</main_width>
+  <main_height>614</main_height>
+  <orders_column_order_comanda>0</orders_column_order_comanda>
+  <orders_column_width_comanda>30</orders_column_width_comanda>
+  <orders_column_order_data>2</orders_column_order_data>
+  <orders_column_width_data>68</orders_column_width_data>
+  <orders_column_order_hora>3</orders_column_order_hora>
+  <orders_column_width_hora>68</orders_column_width_hora>
+  <orders_column_order_cliente>1</orders_column_order_cliente>
+  <orders_column_width_cliente>68</orders_column_width_cliente>
+  <orders_column_order_nome>4</orders_column_order_nome>
+  <orders_column_width_nome>172</orders_column_width_nome>
+  <orders_column_order_endereco>5</orders_column_order_endereco>
+  <orders_column_width_endereco>172</orders_column_width_endereco>
+  <orders_column_order_itens>6</orders_column_order_itens>
+  <orders_column_width_itens>40</orders_column_width_itens>
+  <orders_column_order_total>7</orders_column_order_total>
+  <orders_column_width_total>80</orders_column_width_total>
+  <orders_column_order_taxa_entrega>8</orders_column_order_taxa_entrega>
+  <orders_column_width_taxa_entrega>80</orders_column_width_taxa_entrega>
+  <orders_column_order_saida>9</orders_column_order_saida>
+  <orders_column_width_saida>68</orders_column_width_saida>
+  <orders_column_order_entrega>10</orders_column_order_entrega>
+  <orders_column_width_entrega>68</orders_column_width_entrega>
+  <orders_column_order_vendedor>11</orders_column_order_vendedor>
+  <orders_column_width_vendedor>100</orders_column_width_vendedor>
+  <orders_column_order_situacao>12</orders_column_order_situacao>
+  <orders_column_width_situacao>30</orders_column_width_situacao>
+  <orders_column_order_observacao>13</orders_column_order_observacao>
+  <orders_column_width_observacao>172</orders_column_width_observacao>
+  <orders_column_order_indice>14</orders_column_order_indice>
+  <orders_column_width_indice>45</orders_column_width_indice>
+  <orders_column_order_usuario>15</orders_column_order_usuario>
+  <orders_column_width_usuario>68</orders_column_width_usuario>
+  <orders_column_order_usuario_nome>16</orders_column_order_usuario_nome>
+  <orders_column_width_usuario_nome>68</orders_column_width_usuario_nome>
+  <frmFechamento_window_x>326</frmFechamento_window_x>
+  <frmFechamento_window_y>121</frmFechamento_window_y>
+  <frmFechamento_window_width>713</frmFechamento_window_width>
+  <frmFechamento_window_height>485</frmFechamento_window_height>
+</config>

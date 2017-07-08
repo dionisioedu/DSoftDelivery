@@ -1,0 +1,6 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Debug\DSoftParameters.dll.config
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Debug\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\bin\Debug\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\obj\Debug\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\obj\Debug\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftParameters\obj\Debug\DSoftParameters.csprojResolveAssemblyReference.cache

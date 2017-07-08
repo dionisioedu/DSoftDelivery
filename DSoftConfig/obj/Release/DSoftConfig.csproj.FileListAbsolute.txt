@@ -1,0 +1,6 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Release\DSoftConfig.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Release\DSoftConfig.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Release\System.Data.SQLite.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\bin\Release\System.Data.SQLite.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\obj\Release\DSoftConfig.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftConfig\obj\Release\DSoftConfig.pdb

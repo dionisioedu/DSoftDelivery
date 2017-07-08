@@ -1,0 +1,8 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Debug\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Debug\DSoftModels.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Debug\Mono.Security.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Debug\Npgsql.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\bin\Debug\Npgsql.xml
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\obj\Debug\DSoftModels.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\obj\Debug\DSoftModels.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftModels\obj\Debug\DSoftModels.csprojResolveAssemblyReference.cache

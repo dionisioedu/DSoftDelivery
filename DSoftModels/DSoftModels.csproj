@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{664556AC-5924-435D-BF2F-446030F1D320}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSoftModels</RootNamespace>
+    <AssemblyName>DSoftModels</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security">
+      <HintPath>..\DSoft Delivery\bin\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\DSoft Delivery\bin\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\FluxosDeCaixa.cs" />
+    <Compile Include="Enums\FormasDePagamento.cs" />
+    <Compile Include="Enums\Temperaturas.cs" />
+    <Compile Include="Models\Alerta.cs" />
+    <Compile Include="Models\Caixa.cs" />
+    <Compile Include="Models\CalendarioDeTabelas.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\ClienteGrupo.cs" />
+    <Compile Include="Models\ClienteTipo.cs" />
+    <Compile Include="Models\Compra.cs" />
+    <Compile Include="Models\CompraItem.cs" />
+    <Compile Include="Models\ContactLog.cs" />
+    <Compile Include="Models\Crediario.cs" />
+    <Compile Include="Models\Despesa.cs" />
+    <Compile Include="Models\DespesaTipo.cs" />
+    <Compile Include="Models\Emitente.cs" />
+    <Compile Include="Enums\Fechamentos.cs" />
+    <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Entrega.cs" />
+    <Compile Include="Models\Equipamentos.cs" />
+    <Compile Include="Models\Fechamento.cs" />
+    <Compile Include="Models\FechamentoDeCaixa.cs" />
+    <Compile Include="Models\FechamentoDiario.cs" />
+    <Compile Include="Models\Filial.cs" />
+    <Compile Include="Models\FluxoDeCaixa.cs" />
+    <Compile Include="Models\FormaDePagamento.cs" />
+    <Compile Include="Models\Fornecedor.cs" />
+    <Compile Include="Models\FornecedorTipo.cs" />
+    <Compile Include="Models\GrupoTributario.cs" />
+    <Compile Include="Interfaces\ILicenca.cs" />
+    <Compile Include="Models\ItemAdicional.cs" />
+    <Compile Include="Models\ItemFechamentoDetalhe.cs" />
+    <Compile Include="Models\ItemPedido.cs" />
+    <Compile Include="Enums\LancamentoTipo.cs" />
+    <Compile Include="Models\Lead.cs" />
+    <Compile Include="Models\Locacao.cs" />
+    <Compile Include="Models\LocacaoEspecial.cs" />
+    <Compile Include="Models\LocacaoEspecialPreco.cs" />
+    <Compile Include="Models\Local.cs" />
+    <Compile Include="Models\Manifesto.cs" />
+    <Compile Include="Models\Material.cs" />
+    <Compile Include="Models\Medida.cs" />
+    <Compile Include="Models\MovimentoTipoProduto.cs" />
+    <Compile Include="Models\OrdemDeServico.cs" />
+    <Compile Include="Models\PagamentoFuncionario.cs" />
+    <Compile Include="Models\Periodo.cs" />
+    <Compile Include="Models\Recebimento.cs" />
+    <Compile Include="Models\RecebimentoTipo.cs" />
+    <Compile Include="Models\TipoDeServico.cs" />
+    <Compile Include="NFe\ender.cs" />
+    <Compile Include="NFe\NFe.cs" />
+    <Compile Include="NFe\NFe.infNFe.cs" />
+    <Compile Include="NFe\NFe.infNFe.dest.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.COFINS.COFINSOutr.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.COFINS.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.ICMS.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.ICMS.ICMSSN102.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.PIS.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.imposto.PIS.PISOutr.cs" />
+    <Compile Include="NFe\NFe.infNFe.det.prod.cs" />
+    <Compile Include="NFe\NFe.infNFe.emit.cs" />
+    <Compile Include="NFe\NFe.infNFe.ide.cs" />
+    <Compile Include="NFe\NFe.infNFe.infAdic.cs" />
+    <Compile Include="NFe\NFe.infNFe.total.cs" />
+    <Compile Include="NFe\NFe.infNFe.total.ICMSTot.cs" />
+    <Compile Include="NFe\NFe.infNFe.transp.cs" />
+    <Compile Include="NFe\nfeProc.cs" />
+    <Compile Include="Models\Ocorrencia.cs" />
+    <Compile Include="Models\OrdemDeColeta.cs" />
+    <Compile Include="Models\Pagamento.cs" />
+    <Compile Include="Models\PagamentoNovo.cs" />
+    <Compile Include="Models\Parcela.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\NivelUsuario.cs" />
+    <Compile Include="Models\Permissoes.cs" />
+    <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\ProdutoEstoque.cs" />
+    <Compile Include="Models\ProdutoGrupo.cs" />
+    <Compile Include="Models\ProdutoTipo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Ramo.cs" />
+    <Compile Include="Models\Recurso.cs" />
+    <Compile Include="Models\RecursoTipo.cs" />
+    <Compile Include="Enums\Situacoes.cs" />
+    <Compile Include="Models\TabelaDePrecos.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Veiculo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,36 @@
+<project outputDir="C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Confused" baseDir="C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Debug" debug="true" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" inherit="false" />
+  <packer id="compressor" />
+  <module path="DSKey.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoft Delivery.exe">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftBD.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftCore.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftLogger.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftModels.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftParameters.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSPrintingHelper.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="Mono.Security.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftConfig.dll">
+    <rule pattern="true" inherit="false" />
+  </module>
+  <module path="DSoftForms.dll" />
+  <module path="Npgsql.dll" />
+</project>

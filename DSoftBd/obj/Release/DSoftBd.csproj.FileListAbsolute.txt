@@ -1,0 +1,5 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Debug\DSoftBD.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoft Delivery\bin\Debug\DSoftBD.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Release\DSoftBd.csprojResolveAssemblyReference.cache
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Release\DSoftBD.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftBd\obj\Release\DSoftBD.pdb

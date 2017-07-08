@@ -1,0 +1,6 @@
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\bin\Release\DSoftCore.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\bin\Release\DSoftCore.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\bin\Release\DSoftParameters.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\bin\Release\DSoftParameters.pdb
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\obj\Release\DSoftCore.dll
+C:\DSoft\Projetos\DSoft Delivery\DSoftCore\obj\Release\DSoftCore.pdb

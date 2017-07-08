@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<fabricante>
+
+<dll>
+	<nome>Bematech.dll</nome>
+	<modelo>MP-20 FI II</modelo>
+	<modelo>MP-40 FI II</modelo>
+	<modelo>MP-2000 TH FI</modelo>
+	<modelo>MP-6000 TH FI</modelo>
+	<modelo>MP-25 FI</modelo>
+	<modelo>MP-50 FI</modelo>
+</dll>
+
+</fabricante>
